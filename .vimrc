@@ -50,22 +50,24 @@ endif
 " Plugins
 call plug#begin()
 
+Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'easymotion/vim-easymotion'
-" Plug 'ervandew/supertab'
-" Plug 'honza/vim-snippets'
+Plug 'ervandew/supertab'
+Plug 'honza/vim-snippets'
 Plug 'joonty/vdebug'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
-" Plug 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
-" Plug 'valloric/youcompleteme'
+"Plug 'valloric/youcompleteme'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 
