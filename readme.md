@@ -2,10 +2,11 @@
 
 ## Clone from Github
 ```sh
-mkdir ~/.vim
 rm ~/.vimrc
-ln -s ~/.vim/.vimrc ~/.vimrc
+mkdir ~/.vim
+cd ~/.vim
 git clone https://github.com/domeniclidestri/.vim.git
+ln -s ~/.vim/.vimrc ~/.vimrc
 ```
 
 ## In Vim
